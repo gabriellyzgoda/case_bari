@@ -17,6 +17,9 @@ from pathlib import Path
 import pandas as pd
 
 log = logging.getLogger("tratamento")
+PASTA = Path(__file__).resolve().parent
+ARQUIVO_PADRAO = PASTA / "dados" / "propostas_credito.csv"
+REGISTRO_MD = PASTA / "parte 1" / "registro_tratamento.md"   # o registro é um entregável da Parte 1
 
 # Colunas sem as quais a análise do funil não funciona.
 COLUNAS_OBRIGATORIAS = [
@@ -253,8 +256,8 @@ def salvar_registro_md(registro, caminho, impacto=None):
 if __name__ == "__main__":
     import sys
     logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
-    caminho = sys.argv[1] if len(sys.argv) > 1 else "dados/propostas_credito.csv"
+    caminho = sys.argv[1] if len(sys.argv) > 1 else ARQUIVO_PADRAO
     df, reg = carregar_e_tratar(caminho)
-    salvar_registro_md(reg, "registro_tratamento.md", reg.attrs.get("impacto_remocoes"))
+    salvar_registro_md(reg, REGISTRO_MD, reg.attrs.get("impacto_remocoes"))
     print(reg.to_string(index=False))
-    print("\nRegistro salvo em registro_tratamento.md")
+    print(f"\nRegistro salvo em {REGISTRO_MD}")

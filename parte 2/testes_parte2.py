@@ -15,7 +15,7 @@ import pandas as pd
 
 from relatorio_semanal import main
 
-ORIGINAL = Path(__file__).resolve().parent / "dados" / "propostas_credito.csv"
+ORIGINAL = Path(__file__).resolve().parent.parent / "dados" / "propostas_credito.csv"
 
 
 def preparar(pasta, nome, alterar=None, **kwargs_csv):

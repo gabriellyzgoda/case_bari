@@ -1,6 +1,6 @@
 # Parte 1 — Diagnóstico do funil
 
-Código: `analise_parte1.py` (rodar com `python analise_parte1.py`). O tratamento de dados está em `tratamento.py`, e o registro de cada problema encontrado e da decisão tomada está em [`registro_tratamento.md`](registro_tratamento.md).
+Código: `analise_parte1.py`, nesta pasta (rodar com `python analise_parte1.py`). O tratamento de dados está em [`tratamento.py`](../tratamento.py), na pasta principal, porque é compartilhado com a Parte 2. O registro de cada problema encontrado e da decisão tomada está em [`registro_tratamento.md`](registro_tratamento.md).
 
 ## Base analisada
 

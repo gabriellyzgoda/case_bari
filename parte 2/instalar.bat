@@ -15,7 +15,7 @@ if errorlevel 1 (
 )
 
 echo Instalando as bibliotecas do relatorio...
-%PY% -m pip install -r requirements.txt
+%PY% -m pip install -r "%~dp0..\requirements.txt"
 if errorlevel 1 (
   echo.
   echo ERRO na instalacao. Tire um print desta tela e envie para o time de dados.

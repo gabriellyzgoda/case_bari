@@ -2,14 +2,19 @@
 analise_parte1.py — Diagnóstico do funil (Parte 1)
 
 Rodar:  python analise_parte1.py
-Pré-requisito: dados/propostas_credito.csv e tratamento.py na mesma pasta.
+Pré-requisito: tratamento.py e dados/propostas_credito.csv na pasta principal.
+Também atualiza o registro_tratamento.md desta pasta.
 """
 
 import logging
+import sys
+from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy.stats import chi2_contingency
-from tratamento import carregar_e_tratar, ETAPAS
+# tratamento.py fica na pasta principal, porque é compartilhado com a Parte 2
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from tratamento import ARQUIVO_PADRAO, REGISTRO_MD, ETAPAS, carregar_e_tratar, salvar_registro_md  # noqa: E402
 
 pd.set_option("display.width", 200)
 
@@ -161,7 +166,8 @@ def pergunta4_impactos(df, recuperacao_perdas=(0.05, 0.10, 0.20), recuperacao_do
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.WARNING)
-    df, _ = carregar_e_tratar("dados/propostas_credito.csv")
+    df, registro = carregar_e_tratar(ARQUIVO_PADRAO)
+    salvar_registro_md(registro, REGISTRO_MD, registro.attrs.get("impacto_remocoes"))
 
     print(f"Base analisada: {len(df)} propostas | contratadas: {df['contratada'].sum()} "
           f"({100 * df['contratada'].mean():.1f}%)")

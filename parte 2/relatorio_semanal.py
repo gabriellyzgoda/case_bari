@@ -19,11 +19,14 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+PASTA = Path(__file__).resolve().parent
+# tratamento.py fica na pasta principal, porque é compartilhado com a Parte 1: importamos de lá, sem duplicar o código.
+sys.path.insert(0, str(PASTA.parent))
+
 from exportadores import EXPORTADORES
 from metricas_semanais import calcular
-from tratamento import ErroEstrutura, carregar_e_tratar
+from tratamento import ARQUIVO_PADRAO, ErroEstrutura, carregar_e_tratar  # noqa: E402
 
-PASTA = Path(__file__).resolve().parent
 log = logging.getLogger("relatorio")
 
 
@@ -43,7 +46,7 @@ def configurar_log(pasta_logs):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Gera o relatório semanal do funil de crédito.")
-    parser.add_argument("--entrada", default=str(PASTA / "dados" / "propostas_credito.csv"))
+    parser.add_argument("--entrada", default=str(ARQUIVO_PADRAO))
     parser.add_argument("--saida", default=str(PASTA / "saida"))
     parser.add_argument("--logs", default=str(PASTA / "logs"))
     parser.add_argument("--data-corte", default=None, help="último dia da semana (AAAA-MM-DD)")

@@ -15,8 +15,8 @@ Quem rodar o código não precisa deles: o programa cria a pasta `saida/` e gera
 **Na primeira vez**, dê dois cliques em `instalar.bat`. Ele instala as bibliotecas necessárias. Se o Python não estiver instalado, a janela avisa e explica como instalar.
 
 **Toda segunda-feira:**
-1. Salve o arquivo novo na pasta `dados`, com o nome `propostas_credito.csv`.
-2. Dê dois cliques em `rodar_relatorio.bat`.
+1. Salve o arquivo novo na pasta `dados`, que fica na pasta principal do projeto, com o nome `propostas_credito.csv`.
+2. Dê dois cliques em `rodar_relatorio.bat`, dentro da pasta `parte 2`.
 3. Ao terminar, a pasta `saida` abre sozinha com os três arquivos. O nome de cada um traz a data da semana, por exemplo `relatorio_funil_2025-06-29.pdf`.
 4. Envie para a liderança o formato que preferir.
 
@@ -27,7 +27,8 @@ Se aparecer **"ERRO: o relatório NÃO foi gerado"**, a mensagem logo acima diz 
 ### Pelo terminal
 
 ```
-python -m pip install -r requirements.txt       (só na primeira vez)
+cd "parte 2"
+python -m pip install -r ../requirements.txt    (só na primeira vez)
 python relatorio_semanal.py
 ```
 
@@ -35,7 +36,7 @@ Opções:
 
 | Opção | Para que serve | Exemplo |
 |---|---|---|
-| `--entrada` | Usar outro arquivo de entrada | `--entrada dados/base_nova.xlsx` |
+| `--entrada` | Usar outro arquivo de entrada | `--entrada ../dados/base_nova.xlsx` |
 | `--data-corte` | Gerar o relatório de uma semana específica (último dia da semana) | `--data-corte 2025-06-29` |
 | `--formatos` | Gerar só alguns formatos | `--formatos html,pdf` |
 
@@ -46,7 +47,7 @@ Opções:
 3. Ação: **Iniciar um programa**.
    - Programa/script: o caminho completo do `rodar_relatorio.bat`
    - Adicione argumentos: `agendado` (assim a janela não fica esperando alguém apertar uma tecla)
-   - Iniciar em: o caminho da pasta do projeto
+   - Iniciar em: o caminho da pasta `parte 2`
 4. Conclua. O computador precisa estar ligado no horário.
 
 ---
@@ -137,9 +138,9 @@ Para rodar: `python testes_parte2.py`
 | `relatorio_semanal.py` | Script principal: orquestra as etapas, grava o log, trata os erros e define o código de saída |
 | `metricas_semanais.py` | Calcula as métricas do relatório. Os parâmetros (LTV máximo, dias de maturação, meses exibidos) ficam no topo do arquivo |
 | `exportadores.py` | Gera o HTML, o Excel e o PDF a partir das mesmas métricas |
-| `tratamento.py` | Mesmo tratamento da Parte 1, com a leitura adaptada a formatos novos |
+| `../tratamento.py` | Mesmo tratamento da Parte 1, com a leitura adaptada a formatos novos. Fica na pasta principal, compartilhado pelas duas partes |
 | `testes_parte2.py` | Testes dos cenários de falha |
-| `requirements.txt` | Bibliotecas com as versões fixas que foram testadas |
+| `../requirements.txt` | Bibliotecas com as versões fixas que foram testadas (na pasta principal, vale para o projeto todo) |
 | `instalar.bat` | Instalação em dois cliques (primeira vez) |
 | `rodar_relatorio.bat` | Geração do relatório em dois cliques (toda segunda) |
 

@@ -2,7 +2,7 @@
 
 | # | Problema | Linhas afetadas | Decisão | Justificativa |
 |---|---|---|---|---|
-| 1 | Arquivo com BOM (UTF-8) | 0 | Lido com encoding utf-8-sig | Sem isso a primeira coluna vem com um caractere invisível no nome |
+| 1 | Formato do arquivo de entrada | 0 | Lido como CSV (separador ',', encoding utf-8-sig) | Separador e encoding detectados automaticamente; BOM removido com utf-8-sig |
 | 2 | canal_origem com grafias diferentes | 4 | Padronizado para a grafia mais frequente | São o mesmo canal; separados, criariam canais fantasmas com 1–2 propostas |
 | 3 | valor_imovel com prefixo 'R$' | 3 | Prefixo removido e convertido para número | Valor em si é válido |
 | 4 | data_entrada no formato dd/mm/aaaa | 3 | Convertida como dia/mês/ano | Confirmado na PR-000153: entrada + tempo_analise_dias = data de assinatura |
