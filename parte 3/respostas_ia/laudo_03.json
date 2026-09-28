@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_03.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "sala comercial",
+      "evidencia": "vistoriamos a sala comercial 503, Edifício Horizonte"
+    },
+    "endereco": {
+      "valor": "Rua do Comércio, 77, Edifício Horizonte, sala 503",
+      "evidencia": "vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR."
+    },
+    "cidade": {
+      "valor": "Curitiba",
+      "evidencia": "vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR."
+    },
+    "uf": {
+      "valor": "PR",
+      "evidencia": "vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": 54.8,
+      "evidencia": "Área útil 54,8 m²"
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": "11 anos",
+      "evidencia": "Idade aparente: 11 anos."
+    },
+    "valor_avaliacao": {
+      "valor": 395500.0,
+      "evidencia": "Valor indicado: R$ 395.500,00."
+    },
+    "matricula": {
+      "valor": "77.201",
+      "evidencia": "Matrícula 77.201 - 5º Registro de Imóveis."
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão."
+    },
+    "onus_descricao": {
+      "valor": "Consta alienação fiduciária em favor de instituição financeira",
+      "evidencia": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão."
+    },
+    "data_vistoria": {
+      "valor": "2025-03-22",
+      "evidencia": "Em 22 de março de 2025 vistoriamos"
+    },
+    "responsavel_tecnico": {
+      "valor": "Beatriz Nunes",
+      "evidencia": "Responsável: Arq. Beatriz Nunes (CAU A987654-3)."
+    },
+    "registro_profissional": {
+      "valor": "CAU A987654-3",
+      "evidencia": "Responsável: Arq. Beatriz Nunes (CAU A987654-3)."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

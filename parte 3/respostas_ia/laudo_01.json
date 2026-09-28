@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_01.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "apartamento residencial",
+      "evidencia": "Imóvel: apartamento residencial"
+    },
+    "endereco": {
+      "valor": "Rua das Acácias, 145, ap. 82 - Vila Mariana",
+      "evidencia": "Endereço: Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP"
+    },
+    "cidade": {
+      "valor": "São Paulo",
+      "evidencia": "Endereço: Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP"
+    },
+    "uf": {
+      "valor": "SP",
+      "evidencia": "Endereço: Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP"
+    },
+    "area_privativa_m2": {
+      "valor": 78.4,
+      "evidencia": "Área privativa: 78,40 m²"
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 102.1,
+      "evidencia": "área total: 102,10 m²"
+    },
+    "ano_construcao": {
+      "valor": 2014,
+      "evidencia": "Ano de construção: 2014"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 642000.0,
+      "evidencia": "Valor de avaliação: R$ 642.000,00"
+    },
+    "matricula": {
+      "valor": "184.772",
+      "evidencia": "Matrícula: 184.772 do 14º CRI de São Paulo"
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "Ônus: não foram identificados ônus na certidão analisada."
+    },
+    "onus_descricao": {
+      "valor": "não foram identificados ônus na certidão analisada",
+      "evidencia": "Ônus: não foram identificados ônus na certidão analisada."
+    },
+    "data_vistoria": {
+      "valor": "2025-03-12",
+      "evidencia": "Vistoria realizada em 12/03/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Marina Albuquerque",
+      "evidencia": "Responsável técnico: Eng. Marina Albuquerque - CREA-SP 5061234567."
+    },
+    "registro_profissional": {
+      "valor": "CREA-SP 5061234567",
+      "evidencia": "Responsável técnico: Eng. Marina Albuquerque - CREA-SP 5061234567."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

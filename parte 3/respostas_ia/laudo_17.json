@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_17.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "apartamento residencial",
+      "evidencia": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP."
+    },
+    "endereco": {
+      "valor": "Rua Harmonia, 44, Vila Madalena",
+      "evidencia": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP."
+    },
+    "cidade": {
+      "valor": "São Paulo",
+      "evidencia": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP."
+    },
+    "uf": {
+      "valor": "SP",
+      "evidencia": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP."
+    },
+    "area_privativa_m2": {
+      "valor": 70.0,
+      "evidencia": "Área privativa 70 m²."
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2015,
+      "evidencia": "Ano de construção: 2015."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 610000.0,
+      "evidencia": "Valor de avaliação: R$ 610.000,00."
+    },
+    "matricula": {
+      "valor": "176.543",
+      "evidencia": "Matrícula 176.543."
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Ônus: não há ônus, segundo declaração do proprietário; certidão não anexada."
+    },
+    "onus_descricao": {
+      "valor": "não há ônus, segundo declaração do proprietário; certidão não anexada",
+      "evidencia": "Ônus: não há ônus, segundo declaração do proprietário; certidão não anexada."
+    },
+    "data_vistoria": {
+      "valor": "2025-06-25",
+      "evidencia": "Vistoria em 25/06/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Marina Albuquerque",
+      "evidencia": "Responsável técnico: Marina Albuquerque, CREA-SP 5061234567."
+    },
+    "registro_profissional": {
+      "valor": "CREA-SP 5061234567",
+      "evidencia": "Responsável técnico: Marina Albuquerque, CREA-SP 5061234567."
+    },
+    "contradicoes": {
+      "valor": "No cabeçalho consta área total 95 m², porém a tabela interna registra 92 m²",
+      "evidencia": "No cabeçalho consta área total 95 m², porém a tabela interna registra 92 m², manter a divergência para conferência."
+    }
+  }
+}

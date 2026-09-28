@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_02.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "casa térrea",
+      "evidencia": "Trata-se de uma casa térrea, com 146,00 m2 de área construída, lote de 250 m²."
+    },
+    "endereco": {
+      "valor": "Av. Central, 900, bloco B",
+      "evidencia": "Localização do bem: Av. Central, 900, bloco B, Belo Horizonte - MG."
+    },
+    "cidade": {
+      "valor": "Belo Horizonte",
+      "evidencia": "Localização do bem: Av. Central, 900, bloco B, Belo Horizonte - MG."
+    },
+    "uf": {
+      "valor": "MG",
+      "evidencia": "Localização do bem: Av. Central, 900, bloco B, Belo Horizonte - MG."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 146.0,
+      "evidencia": "com 146,00 m2 de área construída"
+    },
+    "area_terreno_m2": {
+      "valor": 250.0,
+      "evidencia": "lote de 250 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2008,
+      "evidencia": "Construída em 2008."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 680000.0,
+      "evidencia": "Estimativa de mercado: seiscentos e oitenta mil reais (R$ 680.000)."
+    },
+    "matricula": {
+      "valor": "45.981",
+      "evidencia": "Registro imobiliário nº 45.981, Cartório do 3º Ofício."
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "Certidão: sem gravames conhecidos."
+    },
+    "onus_descricao": {
+      "valor": "sem gravames conhecidos",
+      "evidencia": "Certidão: sem gravames conhecidos."
+    },
+    "data_vistoria": {
+      "valor": "2025-03-18",
+      "evidencia": "Data da inspeção: 18/03/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Carlos Henrique Moura",
+      "evidencia": "Avaliador: Carlos Henrique Moura, CAU A123456-7."
+    },
+    "registro_profissional": {
+      "valor": "CAU A123456-7",
+      "evidencia": "Avaliador: Carlos Henrique Moura, CAU A123456-7."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

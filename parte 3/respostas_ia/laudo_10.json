@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_10.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "apartamento",
+      "evidencia": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407."
+    },
+    "endereco": {
+      "valor": "SQN 214, bloco C, apto 407, Condomínio Parque Norte",
+      "evidencia": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407."
+    },
+    "cidade": {
+      "valor": "Brasília",
+      "evidencia": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407."
+    },
+    "uf": {
+      "valor": "DF",
+      "evidencia": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407."
+    },
+    "area_privativa_m2": {
+      "valor": 96.3,
+      "evidencia": "Área privativa 96,3 m²."
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 127.6,
+      "evidencia": "Área total 127,6 m²."
+    },
+    "ano_construcao": {
+      "valor": 2016,
+      "evidencia": "Ano de conclusão 2016."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 735000.0,
+      "evidencia": "Valor de mercado: R$ 735.000,00."
+    },
+    "matricula": {
+      "valor": "201.443",
+      "evidencia": "Registro: matrícula 201.443."
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Gravames: alienação fiduciária mencionada na matrícula."
+    },
+    "onus_descricao": {
+      "valor": "alienação fiduciária mencionada na matrícula",
+      "evidencia": "Gravames: alienação fiduciária mencionada na matrícula."
+    },
+    "data_vistoria": {
+      "valor": "2025-05-09",
+      "evidencia": "Vistoria em 09/05/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Denise Carvalho",
+      "evidencia": "Perita: Denise Carvalho, CREA-DF 112233."
+    },
+    "registro_profissional": {
+      "valor": "CREA-DF 112233",
+      "evidencia": "Perita: Denise Carvalho, CREA-DF 112233."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

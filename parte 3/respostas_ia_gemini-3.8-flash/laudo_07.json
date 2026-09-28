@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_07.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:06",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Casa geminada",
+      "evidencia": "Casa geminada"
+    },
+    "endereco": {
+      "valor": "Rua Azul, 33, bairro Jardim Europa",
+      "evidencia": "Rua Azul, 33, bairro Jardim Europa"
+    },
+    "cidade": {
+      "valor": "Porto Alegre",
+      "evidencia": "Porto Alegre"
+    },
+    "uf": {
+      "valor": "RS",
+      "evidencia": "RS"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 92.5,
+      "evidencia": "área edificada 92,50 m²"
+    },
+    "area_terreno_m2": {
+      "valor": 125.0,
+      "evidencia": "Terreno 125,00 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2011,
+      "evidencia": "Ano de construção informado pelo proprietário: 2011"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 372000.0,
+      "evidencia": "Valor venal adotado: R$ 372.000,00"
+    },
+    "matricula": {
+      "valor": "66.504",
+      "evidencia": "Matrícula 66.504"
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Há penhora averbada, conforme documento consultado em 20/04/2025"
+    },
+    "onus_descricao": {
+      "valor": "penhora averbada",
+      "evidencia": "Há penhora averbada"
+    },
+    "data_vistoria": {
+      "valor": "2025-04-20",
+      "evidencia": "20-04-2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Rafael Costa",
+      "evidencia": "Eng. Rafael Costa"
+    },
+    "registro_profissional": {
+      "valor": "CREA-RS 222333",
+      "evidencia": "CREA-RS 222333"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

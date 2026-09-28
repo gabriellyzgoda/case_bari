@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_09.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:18",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Casa residencial",
+      "evidencia": "Casa residencial"
+    },
+    "endereco": {
+      "valor": "Alameda das Flores 88",
+      "evidencia": "Alameda das Flores 88"
+    },
+    "cidade": {
+      "valor": "Florianópolis",
+      "evidencia": "Florianópolis"
+    },
+    "uf": {
+      "valor": "SC",
+      "evidencia": "SC"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 198.0,
+      "evidencia": "área construída 198,00 m²"
+    },
+    "area_terreno_m2": {
+      "valor": 420.0,
+      "evidencia": "Área do lote 420,00 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2020,
+      "evidencia": "Construção: 2020"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 1080000.0,
+      "evidencia": "R$ 1.080.000,00"
+    },
+    "matricula": {
+      "valor": "12.909",
+      "evidencia": "Matrícula 12.909"
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "A certidão indica inexistência de ônus reais."
+    },
+    "onus_descricao": {
+      "valor": "inexistência de ônus reais",
+      "evidencia": "A certidão indica inexistência de ônus reais."
+    },
+    "data_vistoria": {
+      "valor": "2025-05-03",
+      "evidencia": "03/05/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Thiago Martins",
+      "evidencia": "Eng. Thiago Martins"
+    },
+    "registro_profissional": {
+      "valor": "CREA-SC 7654321",
+      "evidencia": "CREA-SC 7654321"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

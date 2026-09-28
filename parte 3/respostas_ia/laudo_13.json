@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_13.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Apartamento",
+      "evidencia": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ."
+    },
+    "endereco": {
+      "valor": "Av. Brasil 1770, ap. 1201",
+      "evidencia": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ."
+    },
+    "cidade": {
+      "valor": "Rio de Janeiro",
+      "evidencia": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ."
+    },
+    "uf": {
+      "valor": "RJ",
+      "evidencia": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": 112.0,
+      "evidencia": "Área útil: 112,00m²."
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 155.0,
+      "evidencia": "Área total: 155,00m²."
+    },
+    "ano_construcao": {
+      "valor": 1987,
+      "evidencia": "Ano de construção: 1987."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 1320000.0,
+      "evidencia": "Valor estimado em R$ 1.320.000,00."
+    },
+    "matricula": {
+      "valor": "145.230",
+      "evidencia": "Matrícula 145.230 do 7º RGI."
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "Ônus: penhora cancelada, conforme averbação; documento não informa data do cancelamento."
+    },
+    "onus_descricao": {
+      "valor": "penhora cancelada, conforme averbação; documento não informa data do cancelamento",
+      "evidencia": "Ônus: penhora cancelada, conforme averbação; documento não informa data do cancelamento."
+    },
+    "data_vistoria": {
+      "valor": "2025-05-30",
+      "evidencia": "Vistoria 30/05/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Eduardo Sampaio",
+      "evidencia": "Avaliador: Eduardo Sampaio, CNAI 67890."
+    },
+    "registro_profissional": {
+      "valor": "CNAI 67890",
+      "evidencia": "Avaliador: Eduardo Sampaio, CNAI 67890."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

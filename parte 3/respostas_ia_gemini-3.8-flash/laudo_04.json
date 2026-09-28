@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_04.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:02",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "terreno urbano",
+      "evidencia": "terreno urbano"
+    },
+    "endereco": {
+      "valor": "Lote 18, Quadra F, Rua Ipê Amarelo",
+      "evidencia": "Lote 18, Quadra F, Rua Ipê Amarelo"
+    },
+    "cidade": {
+      "valor": "Goiânia",
+      "evidencia": "Goiânia"
+    },
+    "uf": {
+      "valor": "GO",
+      "evidencia": "GO"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": 360,
+      "evidencia": "360 m2"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 218000,
+      "evidencia": "R$ 218.000"
+    },
+    "matricula": {
+      "valor": "102.334",
+      "evidencia": "102.334"
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "nada informado no documento apresentado"
+    },
+    "onus_descricao": {
+      "valor": "nada informado no documento apresentado",
+      "evidencia": "nada informado no documento apresentado"
+    },
+    "data_vistoria": {
+      "valor": "2025-04-02",
+      "evidencia": "02/04/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Paulo Sérgio Reis",
+      "evidencia": "Paulo Sérgio Reis"
+    },
+    "registro_profissional": {
+      "valor": "CREA 12345/D-GO",
+      "evidencia": "CREA 12345/D-GO"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

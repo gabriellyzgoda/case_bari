@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_09.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Casa residencial",
+      "evidencia": "Casa residencial na Alameda das Flores 88, Florianópolis/SC."
+    },
+    "endereco": {
+      "valor": "Alameda das Flores 88",
+      "evidencia": "Casa residencial na Alameda das Flores 88, Florianópolis/SC."
+    },
+    "cidade": {
+      "valor": "Florianópolis",
+      "evidencia": "Casa residencial na Alameda das Flores 88, Florianópolis/SC."
+    },
+    "uf": {
+      "valor": "SC",
+      "evidencia": "Casa residencial na Alameda das Flores 88, Florianópolis/SC."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 198.0,
+      "evidencia": "área construída 198,00 m²."
+    },
+    "area_terreno_m2": {
+      "valor": 420.0,
+      "evidencia": "Área do lote 420,00 m²;"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2020,
+      "evidencia": "Construção: 2020."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 1080000.0,
+      "evidencia": "Valor apurado: R$ 1.080.000,00."
+    },
+    "matricula": {
+      "valor": "12.909",
+      "evidencia": "Matrícula 12.909, 1º Ofício."
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "A certidão indica inexistência de ônus reais."
+    },
+    "onus_descricao": {
+      "valor": "inexistência de ônus reais",
+      "evidencia": "A certidão indica inexistência de ônus reais."
+    },
+    "data_vistoria": {
+      "valor": "2025-05-03",
+      "evidencia": "Inspeção presencial em 03/05/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Thiago Martins",
+      "evidencia": "Responsável técnico: Eng. Thiago Martins, CREA-SC 7654321."
+    },
+    "registro_profissional": {
+      "valor": "CREA-SC 7654321",
+      "evidencia": "Responsável técnico: Eng. Thiago Martins, CREA-SC 7654321."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

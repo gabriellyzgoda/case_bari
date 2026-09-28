@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_03.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:02",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "sala comercial",
+      "evidencia": "sala comercial"
+    },
+    "endereco": {
+      "valor": "sala comercial 503, Edifício Horizonte, Rua do Comércio, 77",
+      "evidencia": "sala comercial 503, Edifício Horizonte, Rua do Comércio, 77"
+    },
+    "cidade": {
+      "valor": "Curitiba",
+      "evidencia": "Curitiba"
+    },
+    "uf": {
+      "valor": "PR",
+      "evidencia": "PR"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": 54.8,
+      "evidencia": "Área útil 54,8 m²"
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": "11 anos",
+      "evidencia": "Idade aparente: 11 anos"
+    },
+    "valor_avaliacao": {
+      "valor": 395500,
+      "evidencia": "R$ 395.500,00"
+    },
+    "matricula": {
+      "valor": "77.201",
+      "evidencia": "77.201"
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Consta alienação fiduciária em favor de instituição financeira"
+    },
+    "onus_descricao": {
+      "valor": "Consta alienação fiduciária em favor de instituição financeira",
+      "evidencia": "Consta alienação fiduciária em favor de instituição financeira"
+    },
+    "data_vistoria": {
+      "valor": "2025-03-22",
+      "evidencia": "22 de março de 2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Beatriz Nunes",
+      "evidencia": "Beatriz Nunes"
+    },
+    "registro_profissional": {
+      "valor": "CAU A987654-3",
+      "evidencia": "CAU A987654-3"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

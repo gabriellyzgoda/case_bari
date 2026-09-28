@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_12.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "casa de alto padrão",
+      "evidencia": "Tipo de propriedade: casa de alto padrão"
+    },
+    "endereco": {
+      "valor": "Rua das Bromélias, 500, Lago Sul",
+      "evidencia": "Local: Rua das Bromélias, 500, Lago Sul, Brasília - DF"
+    },
+    "cidade": {
+      "valor": "Brasília",
+      "evidencia": "Local: Rua das Bromélias, 500, Lago Sul, Brasília - DF"
+    },
+    "uf": {
+      "valor": "DF",
+      "evidencia": "Local: Rua das Bromélias, 500, Lago Sul, Brasília - DF"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 285.0,
+      "evidencia": "Área construída de 285 m²"
+    },
+    "area_terreno_m2": {
+      "valor": 600.0,
+      "evidencia": "terreno com 600 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 2180000.0,
+      "evidencia": "Preço/valor de avaliação: R$ 2.180.000,00"
+    },
+    "matricula": {
+      "valor": "54.122",
+      "evidencia": "Matrícula 54.122."
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Ônus: servidão de passagem registrada."
+    },
+    "onus_descricao": {
+      "valor": "servidão de passagem registrada",
+      "evidencia": "Ônus: servidão de passagem registrada."
+    },
+    "data_vistoria": {
+      "valor": "2025-05-23",
+      "evidencia": "Data da visita técnica 23/05/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Andréa Melo",
+      "evidencia": "Responsável pelo trabalho: Arq. Andréa Melo, CAU A445566-1."
+    },
+    "registro_profissional": {
+      "valor": "CAU A445566-1",
+      "evidencia": "Responsável pelo trabalho: Arq. Andréa Melo, CAU A445566-1."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

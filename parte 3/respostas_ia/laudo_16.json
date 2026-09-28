@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_16.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Unidade comercial",
+      "evidencia": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP."
+    },
+    "endereco": {
+      "valor": "Rua do Sol, 250, unidade 14",
+      "evidencia": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP."
+    },
+    "cidade": {
+      "valor": "Campinas",
+      "evidencia": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP."
+    },
+    "uf": {
+      "valor": "SP",
+      "evidencia": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP."
+    },
+    "area_privativa_m2": {
+      "valor": 42.0,
+      "evidencia": "Área privativa: 42,00 m²."
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 67.0,
+      "evidencia": "Área total: 67,00m²."
+    },
+    "ano_construcao": {
+      "valor": 2010,
+      "evidencia": "Construído em 2010."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 288000.0,
+      "evidencia": "Valor de avaliação: R$ 288.000,00."
+    },
+    "matricula": {
+      "valor": "101.010",
+      "evidencia": "Matrícula 101.010."
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Ônus: sem informação."
+    },
+    "onus_descricao": {
+      "valor": "sem informação",
+      "evidencia": "Ônus: sem informação."
+    },
+    "data_vistoria": {
+      "valor": "2025-06-19",
+      "evidencia": "Vistoria realizada em 19/06/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Guilherme Rocha",
+      "evidencia": "Responsável técnico: Guilherme Rocha, CREA-SP 501010."
+    },
+    "registro_profissional": {
+      "valor": "CREA-SP 501010",
+      "evidencia": "Responsável técnico: Guilherme Rocha, CREA-SP 501010."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

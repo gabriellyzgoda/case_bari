@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_04.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "terreno urbano",
+      "evidencia": "Tipo: terreno urbano"
+    },
+    "endereco": {
+      "valor": "Lote 18, Quadra F, Rua Ipê Amarelo",
+      "evidencia": "Endereço do imóvel: Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO"
+    },
+    "cidade": {
+      "valor": "Goiânia",
+      "evidencia": "Endereço do imóvel: Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO"
+    },
+    "uf": {
+      "valor": "GO",
+      "evidencia": "Endereço do imóvel: Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": 360.0,
+      "evidencia": "Área do terreno: 360 m2"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 218000.0,
+      "evidencia": "Valor de mercado R$ 218.000"
+    },
+    "matricula": {
+      "valor": "102.334",
+      "evidencia": "Matrícula 102.334"
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Ônus e restrições: nada informado no documento apresentado"
+    },
+    "onus_descricao": {
+      "valor": "nada informado no documento apresentado",
+      "evidencia": "Ônus e restrições: nada informado no documento apresentado"
+    },
+    "data_vistoria": {
+      "valor": "2025-04-02",
+      "evidencia": "Data da vistoria 02/04/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Paulo Sérgio Reis",
+      "evidencia": "RT: Paulo Sérgio Reis, CREA 12345/D-GO"
+    },
+    "registro_profissional": {
+      "valor": "CREA 12345/D-GO",
+      "evidencia": "RT: Paulo Sérgio Reis, CREA 12345/D-GO"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

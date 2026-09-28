@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_05.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:04",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "imóvel rural",
+      "evidencia": "imóvel rural"
+    },
+    "endereco": {
+      "valor": null,
+      "evidencia": null
+    },
+    "cidade": {
+      "valor": "Campinas",
+      "evidencia": "Campinas"
+    },
+    "uf": {
+      "valor": "SP",
+      "evidencia": "SP"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 310.0,
+      "evidencia": "benfeitorias construídas: 310 m²"
+    },
+    "area_terreno_m2": {
+      "valor": 48000.0,
+      "evidencia": "Área do terreno: 4,8 ha"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 1999,
+      "evidencia": "Ano das edificações: 1999"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 1275000.0,
+      "evidencia": "Valor total da avaliação: R$ 1.275.000,00"
+    },
+    "matricula": {
+      "valor": "32.110",
+      "evidencia": "Matrícula 32.110"
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Ônus: reserva legal registrada; não foi apontada hipoteca"
+    },
+    "onus_descricao": {
+      "valor": "reserva legal registrada; não foi apontada hipoteca",
+      "evidencia": "Ônus: reserva legal registrada; não foi apontada hipoteca"
+    },
+    "data_vistoria": {
+      "valor": "2025-04-07",
+      "evidencia": "Inspeção em 07/04/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "João A. Farias",
+      "evidencia": "João A. Farias"
+    },
+    "registro_profissional": {
+      "valor": "CREA-SP 5076543210",
+      "evidencia": "CREA-SP 5076543210"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

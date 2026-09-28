@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funil de crédito — semana até 29/06/2025</title>
+<style>
+:root { --tinta:#1d2b3a; --texto:#34414f; --suave:#6b7885; --linha:#d9e0e7;
+        --fundo:#f5f7f9; --barra:#2f5d8a; --perda:#c0633c; --ok:#2f7a57; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--fundo); color:var(--texto);
+       font:15px/1.55 "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+main { max-width:880px; margin:0 auto; padding:32px 20px 48px; }
+header { border-bottom:3px solid var(--tinta); padding-bottom:14px; margin-bottom:28px; }
+h1 { color:var(--tinta); font-size:26px; margin:0 0 4px; font-weight:600; }
+h2 { color:var(--tinta); font-size:18px; margin:36px 0 10px; font-weight:600; }
+.sub { color:var(--suave); margin:0; }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1px;
+        background:var(--linha); border:1px solid var(--linha); }
+.kpi { background:#fff; padding:16px 18px; }
+.kpi b { display:block; color:var(--tinta); font-size:24px; font-weight:600; }
+.kpi span { color:var(--suave); font-size:13px; }
+table { width:100%; border-collapse:collapse; background:#fff; font-size:14px; }
+th { text-align:left; color:var(--suave); font-weight:600; border-bottom:2px solid var(--linha);
+     padding:8px 10px; }
+td { border-bottom:1px solid var(--linha); padding:8px 10px; }
+td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+td.b, th.b { width:22%; }
+td.id { white-space:nowrap; }
+.tabela { overflow-x:auto; }
+.barra { height:10px; background:var(--barra); border-radius:2px; min-width:2px; }
+.perda { background:var(--perda); }
+.nota { color:var(--suave); font-size:13px; margin:8px 0 0; }
+.maturacao { color:var(--perda); }
+.alerta { border-left:4px solid var(--perda); background:#fff; padding:12px 16px; }
+.tudo-ok { border-left:4px solid var(--ok); background:#fff; padding:12px 16px; }
+footer { margin-top:40px; color:var(--suave); font-size:12px; }
+</style></head>
+<body><main>
+<header>
+  <h1>Funil de crédito — relatório semanal</h1>
+  <p class="sub">Semana de 23/06/2025 a 29/06/2025 ·
+     base com 5.864 propostas analisadas</p>
+</header>
+
+<h2>A semana</h2>
+
+    <div class="kpis">
+      <div class="kpi"><b>68</b>propostas novas
+        <br><span>-13% vs, média das 4 semanas anteriores</span></div>
+      <div class="kpi"><b>9</b>contratos assinados
+        <br><span>-56% vs, média das 4 semanas anteriores</span></div>
+      <div class="kpi"><b>R$ 3,5 mi</b>em crédito contratado
+        <br><span>-55% vs, média das 4 semanas anteriores</span></div>
+    </div>
+
+<h2>Conversão por mês de entrada</h2>
+<div class="tabela"><table><thead><tr><th class="">Mês de entrada</th><th class="n">Propostas</th><th class="n">Conversão</th><th class="n">% correspondente</th><th class="">Situação</th></tr></thead><tbody><tr><td class="">2025-01</td><td class="n">420</td><td class="n">20,5%</td><td class="n">26,7%</td><td class="">completo</td></tr><tr><td class="">2025-02</td><td class="n">439</td><td class="n">16,9%</td><td class="n">32,1%</td><td class="">completo</td></tr><tr><td class="">2025-03</td><td class="n">483</td><td class="n">17,8%</td><td class="n">27,1%</td><td class="">completo</td></tr><tr><td class="">2025-04</td><td class="n">412</td><td class="n">18,0%</td><td class="n">29,4%</td><td class=""><span class="maturacao">em maturação</span></td></tr><tr><td class="">2025-05</td><td class="n">356</td><td class="n">21,9%</td><td class="n">24,4%</td><td class=""><span class="maturacao">em maturação</span></td></tr><tr><td class="">2025-06</td><td class="n">331</td><td class="n">19,6%</td><td class="n">26,9%</td><td class=""><span class="maturacao">em maturação</span></td></tr></tbody></table></div>
+<p class="nota">Meses "em maturação" ainda têm propostas sem desfecho (a análise pode levar até
+80 dias), por isso a conversão deles tende a subir. Compare apenas meses completos.</p>
+
+<h2>Onde o funil perde (últimos 6 meses)</h2>
+<div class="tabela"><table><thead><tr><th class="">Etapa</th><th class="n">Chegaram</th><th class="b"></th><th class="n">Pararam aqui</th><th class="n">R$ perdido</th><th class="b"></th></tr></thead><tbody><tr><td class="">1. Simulação</td><td class="n">2.465</td><td class="b"><div class="barra" style="width:100%"></div></td><td class="n">104</td><td class="n">R$ 38,9 mi</td><td class="b"><div class="barra perda" style="width:15%"></div></td></tr><tr><td class="">2. Lead</td><td class="n">2.361</td><td class="b"><div class="barra" style="width:96%"></div></td><td class="n">381</td><td class="n">R$ 147,4 mi</td><td class="b"><div class="barra perda" style="width:57%"></div></td></tr><tr><td class="">3. Análise de crédito</td><td class="n">1.980</td><td class="b"><div class="barra" style="width:80%"></div></td><td class="n">665</td><td class="n">R$ 257,4 mi</td><td class="b"><div class="barra perda" style="width:100%"></div></td></tr><tr><td class="">4. Avaliação do imóvel</td><td class="n">1.315</td><td class="b"><div class="barra" style="width:53%"></div></td><td class="n">498</td><td class="n">R$ 197,3 mi</td><td class="b"><div class="barra perda" style="width:77%"></div></td></tr><tr><td class="">5. Formalização</td><td class="n">817</td><td class="b"><div class="barra" style="width:33%"></div></td><td class="n">348</td><td class="n">R$ 139,8 mi</td><td class="b"><div class="barra perda" style="width:54%"></div></td></tr><tr><td class="">6. Contratação</td><td class="n">469</td><td class="b"><div class="barra" style="width:19%"></div></td><td class="n">-</td><td class="n">-</td><td class="b"></td></tr></tbody></table></div>
+<p class="nota">Perdas no fim do funil custam mais: a proposta estava mais perto de fechar e o banco já
+pagou análise de crédito e laudo.</p>
+
+<h2>Canais (últimos 6 meses)</h2>
+<div class="tabela"><table><thead><tr><th class="">Canal</th><th class="n">Propostas</th><th class="n">Conversão</th><th class="n">R$ contratado</th></tr></thead><tbody><tr><td class="">Correspondente</td><td class="n">687</td><td class="n">13,4%</td><td class="n">R$ 31,4 mi</td></tr><tr><td class="">Organico</td><td class="n">541</td><td class="n">21,4%</td><td class="n">R$ 47,8 mi</td></tr><tr><td class="">Mídia paga</td><td class="n">485</td><td class="n">19,4%</td><td class="n">R$ 34,6 mi</td></tr><tr><td class="">Indicação</td><td class="n">395</td><td class="n">19,7%</td><td class="n">R$ 29,2 mi</td></tr><tr><td class="">Parceria</td><td class="n">357</td><td class="n">24,9%</td><td class="n">R$ 32,2 mi</td></tr></tbody></table></div>
+
+<h2>Contratos da semana para revisão</h2>
+<div class="alerta"><div class="tabela"><table><thead><tr><th class="id">Proposta</th><th class="">Motivo</th><th class="">Canal</th><th class="n">Valor</th><th class="n">LTV</th><th class="n">Renda</th><th class="n">Parcela s/ juros</th></tr></thead><tbody><tr><td class="id">PR-002355</td><td class="">LTV acima de 60%</td><td class="">Mídia paga</td><td class="n">R$ 418.631</td><td class="n">60,3%</td><td class="n">R$ 3.701</td><td class="n">R$ 1.744</td></tr><tr><td class="id">PR-001487</td><td class="">Parcela maior que a renda declarada</td><td class="">Correspondente</td><td class="n">R$ 505.741</td><td class="n">57,1%</td><td class="n">R$ 3.059</td><td class="n">R$ 4.215</td></tr><tr><td class="id">PR-002618</td><td class="">Parcela maior que a renda declarada</td><td class="">Parceria</td><td class="n">R$ 645.880</td><td class="n">45,4%</td><td class="n">R$ 3.533</td><td class="n">R$ 7.689</td></tr></tbody></table></div></div>
+<p class="nota">Critérios: LTV acima de 60% (política de crédito) ou parcela, mesmo sem juros,
+maior que a renda mensal declarada.</p>
+
+<h2>Qualidade dos dados</h2>
+<div class="tabela"><table><thead><tr><th class="">Problema encontrado no arquivo</th><th class="n">Linhas</th><th class="">O que foi feito</th></tr></thead><tbody><tr><td class="">canal_origem com grafias diferentes</td><td class="n">4</td><td class="">Padronizado para a grafia mais frequente</td></tr><tr><td class="">valor_imovel com prefixo &#x27;R$&#x27;</td><td class="n">3</td><td class="">Prefixo removido e convertido para número</td></tr><tr><td class="">data_entrada no formato dd/mm/aaaa</td><td class="n">3</td><td class="">Convertida como dia/mês/ano</td></tr><tr><td class="">Coluna ltv ausente no arquivo</td><td class="n">6.400</td><td class="">Calculada como valor_solicitado / valor_imovel</td></tr><tr><td class="">etapa_max_funil = 7 (inexistente)</td><td class="n">1</td><td class="">Corrigida para 6</td></tr><tr><td class="">idade_cliente menor que 18</td><td class="n">1</td><td class="">Proposta removida da base (PR-000079)</td></tr><tr><td class="">Assinatura anterior à data de entrada</td><td class="n">1</td><td class="">data_entrada recalculada = data_assinatura - tempo_analise_dias</td></tr><tr><td class="">Renda exatamente R$ 1.800,00</td><td class="n">142</td><td class="">Mantida e marcada</td></tr><tr><td class="">score_credito extremo (&lt;400 ou &gt;900)</td><td class="n">9</td><td class="">Mantido</td></tr><tr><td class="">tipo_imovel = Terreno</td><td class="n">535</td><td class="">Propostas removidas da base</td></tr></tbody></table></div>
+
+<footer>Gerado automaticamente por relatorio_semanal.py. Dados sintéticos do desafio.</footer>
+</main></body></html>

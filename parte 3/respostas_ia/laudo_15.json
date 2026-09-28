@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_15.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "casa",
+      "evidencia": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR."
+    },
+    "endereco": {
+      "valor": "Rua Monte Verde, 19",
+      "evidencia": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR."
+    },
+    "cidade": {
+      "valor": "Curitiba",
+      "evidencia": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR."
+    },
+    "uf": {
+      "valor": "PR",
+      "evidencia": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 135.0,
+      "evidencia": "área construída 135 m²."
+    },
+    "area_terreno_m2": {
+      "valor": 200.0,
+      "evidencia": "Área do terreno 200 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2003,
+      "evidencia": "Ano 2003."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 590000.0,
+      "evidencia": "Avaliação apresentada em R$ 590.000,00."
+    },
+    "matricula": {
+      "valor": "39.240",
+      "evidencia": "Matrícula 39.240."
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "A certidão consultada informa hipoteca ativa."
+    },
+    "onus_descricao": {
+      "valor": "hipoteca ativa",
+      "evidencia": "A certidão consultada informa hipoteca ativa."
+    },
+    "data_vistoria": {
+      "valor": "2025-06-12",
+      "evidencia": "Inspeção: 12/06/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Patrícia Gomes",
+      "evidencia": "Responsável técnico: Patrícia Gomes, Eng. Civil, CREA-PR 123123."
+    },
+    "registro_profissional": {
+      "valor": "CREA-PR 123123",
+      "evidencia": "Responsável técnico: Patrícia Gomes, Eng. Civil, CREA-PR 123123."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

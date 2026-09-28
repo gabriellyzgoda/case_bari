@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_02.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:02",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "casa térrea",
+      "evidencia": "casa térrea"
+    },
+    "endereco": {
+      "valor": "Av. Central, 900, bloco B",
+      "evidencia": "Av. Central, 900, bloco B"
+    },
+    "cidade": {
+      "valor": "Belo Horizonte",
+      "evidencia": "Belo Horizonte"
+    },
+    "uf": {
+      "valor": "MG",
+      "evidencia": "MG"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 146.0,
+      "evidencia": "146,00 m2 de área construída"
+    },
+    "area_terreno_m2": {
+      "valor": 250.0,
+      "evidencia": "lote de 250 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2008,
+      "evidencia": "Construída em 2008"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 680000.0,
+      "evidencia": "R$ 680.000"
+    },
+    "matricula": {
+      "valor": "45.981",
+      "evidencia": "Registro imobiliário nº 45.981"
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "Certidão: sem gravames conhecidos"
+    },
+    "onus_descricao": {
+      "valor": "sem gravames conhecidos",
+      "evidencia": "Certidão: sem gravames conhecidos"
+    },
+    "data_vistoria": {
+      "valor": "2025-03-18",
+      "evidencia": "18/03/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Carlos Henrique Moura",
+      "evidencia": "Carlos Henrique Moura"
+    },
+    "registro_profissional": {
+      "valor": "CAU A123456-7",
+      "evidencia": "CAU A123456-7"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

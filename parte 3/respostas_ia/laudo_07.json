@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_07.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Casa geminada",
+      "evidencia": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS."
+    },
+    "endereco": {
+      "valor": "Rua Azul, 33, bairro Jardim Europa",
+      "evidencia": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS."
+    },
+    "cidade": {
+      "valor": "Porto Alegre",
+      "evidencia": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS."
+    },
+    "uf": {
+      "valor": "RS",
+      "evidencia": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 92.5,
+      "evidencia": "área edificada 92,50 m²"
+    },
+    "area_terreno_m2": {
+      "valor": 125.0,
+      "evidencia": "Terreno 125,00 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": 2011,
+      "evidencia": "Ano de construção informado pelo proprietário: 2011."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 372000.0,
+      "evidencia": "Valor venal adotado: R$ 372.000,00."
+    },
+    "matricula": {
+      "valor": "66.504",
+      "evidencia": "Matrícula 66.504 do Registro de Imóveis da 4ª Zona."
+    },
+    "onus_situacao": {
+      "valor": "com ônus",
+      "evidencia": "Há penhora averbada, conforme documento consultado em 20/04/2025."
+    },
+    "onus_descricao": {
+      "valor": "Há penhora averbada",
+      "evidencia": "Há penhora averbada, conforme documento consultado em 20/04/2025."
+    },
+    "data_vistoria": {
+      "valor": "2025-04-20",
+      "evidencia": "Data da vistoria: 20-04-2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Rafael Costa",
+      "evidencia": "Responsável: Eng. Rafael Costa, CREA-RS 222333."
+    },
+    "registro_profissional": {
+      "valor": "CREA-RS 222333",
+      "evidencia": "Responsável: Eng. Rafael Costa, CREA-RS 222333."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_08.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "loja térrea com sobreloja",
+      "evidencia": "Imóvel: loja térrea com sobreloja"
+    },
+    "endereco": {
+      "valor": "Rua Sete de Setembro, 410",
+      "evidencia": "Endereço: Rua Sete de Setembro, 410, Salvador/BA"
+    },
+    "cidade": {
+      "valor": "Salvador",
+      "evidencia": "Endereço: Rua Sete de Setembro, 410, Salvador/BA"
+    },
+    "uf": {
+      "valor": "BA",
+      "evidencia": "Endereço: Rua Sete de Setembro, 410, Salvador/BA"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 118.0,
+      "evidencia": "Área construída aproximada: 118 m²"
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 910000.0,
+      "evidencia": "Valor de avaliação R$ 910.000,00"
+    },
+    "matricula": {
+      "valor": null,
+      "evidencia": "Matrícula não apresentada."
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Ônus: não foi possível verificar por ausência de certidão."
+    },
+    "onus_descricao": {
+      "valor": "não foi possível verificar por ausência de certidão",
+      "evidencia": "Ônus: não foi possível verificar por ausência de certidão."
+    },
+    "data_vistoria": {
+      "valor": "2025-04-29",
+      "evidencia": "Vistoria efetuada em 29/04/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Luciana Prado",
+      "evidencia": "Avaliadora responsável: Luciana Prado - CNAI 12345."
+    },
+    "registro_profissional": {
+      "valor": "CNAI 12345",
+      "evidencia": "Avaliadora responsável: Luciana Prado - CNAI 12345."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

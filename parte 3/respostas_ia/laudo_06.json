@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_06.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Apartamento",
+      "evidencia": "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE"
+    },
+    "endereco": {
+      "valor": "Rua das Palmeiras, 1.210",
+      "evidencia": "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100."
+    },
+    "cidade": {
+      "valor": "Recife",
+      "evidencia": "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100."
+    },
+    "uf": {
+      "valor": "PE",
+      "evidencia": "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100."
+    },
+    "area_privativa_m2": {
+      "valor": 61.0,
+      "evidencia": "Área privativa 61m²"
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 84.0,
+      "evidencia": "área total 84m²"
+    },
+    "ano_construcao": {
+      "valor": 2018,
+      "evidencia": "Imóvel com 2018 de construção."
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 455000.0,
+      "evidencia": "Avaliação: R$ 455.000,00"
+    },
+    "matricula": {
+      "valor": "9.876",
+      "evidencia": "Matrícula: 9.876, 2º RGI do Recife."
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Não consta informação sobre ônus."
+    },
+    "onus_descricao": {
+      "valor": "Não consta informação sobre ônus",
+      "evidencia": "Não consta informação sobre ônus."
+    },
+    "data_vistoria": {
+      "valor": "2025-04-15",
+      "evidencia": "Vistoria: 15/04/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Fernanda Lins",
+      "evidencia": "Responsável técnico: Fernanda Lins, CREA 18001/PE."
+    },
+    "registro_profissional": {
+      "valor": "CREA 18001/PE",
+      "evidencia": "Responsável técnico: Fernanda Lins, CREA 18001/PE."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

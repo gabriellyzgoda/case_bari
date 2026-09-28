@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_14.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "galpão industrial",
+      "evidencia": "Identificação: galpão industrial"
+    },
+    "endereco": {
+      "valor": "Rodovia BR-116, km 12",
+      "evidencia": "Endereço: Rodovia BR-116, km 12, Betim/MG"
+    },
+    "cidade": {
+      "valor": "Betim",
+      "evidencia": "Endereço: Rodovia BR-116, km 12, Betim/MG"
+    },
+    "uf": {
+      "valor": "MG",
+      "evidencia": "Endereço: Rodovia BR-116, km 12, Betim/MG"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 1450.0,
+      "evidencia": "Área coberta: 1.450 m²;"
+    },
+    "area_terreno_m2": {
+      "valor": 3000.0,
+      "evidencia": "terreno: 3.000 m²"
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": "aproximadamente 18 anos",
+      "evidencia": "Idade: aproximadamente 18 anos"
+    },
+    "valor_avaliacao": {
+      "valor": 3900000.0,
+      "evidencia": "Valor indicado pelo método comparativo: R$ 3.900.000"
+    },
+    "matricula": {
+      "valor": "70.008",
+      "evidencia": "Matrícula: 70.008"
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Não há menção a ônus."
+    },
+    "onus_descricao": {
+      "valor": "Não há menção a ônus",
+      "evidencia": "Não há menção a ônus."
+    },
+    "data_vistoria": {
+      "valor": "2025-06-05",
+      "evidencia": "Data da vistoria: 05/06/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Sérgio Tavares",
+      "evidencia": "Responsável: Sérgio Tavares, CREA-MG 998877."
+    },
+    "registro_profissional": {
+      "valor": "CREA-MG 998877",
+      "evidencia": "Responsável: Sérgio Tavares, CREA-MG 998877."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

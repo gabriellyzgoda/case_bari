@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_06.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:05",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Apartamento",
+      "evidencia": "Apartamento"
+    },
+    "endereco": {
+      "valor": "Rua das Palmeiras, 1.210",
+      "evidencia": "Rua das Palmeiras, 1.210"
+    },
+    "cidade": {
+      "valor": "Recife",
+      "evidencia": "Recife"
+    },
+    "uf": {
+      "valor": "PE",
+      "evidencia": "PE"
+    },
+    "area_privativa_m2": {
+      "valor": 61.0,
+      "evidencia": "Área privativa 61m²"
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 84.0,
+      "evidencia": "área total 84m²"
+    },
+    "ano_construcao": {
+      "valor": 2018,
+      "evidencia": "2018 de construção"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 455000.0,
+      "evidencia": "R$ 455.000,00"
+    },
+    "matricula": {
+      "valor": "9.876",
+      "evidencia": "Matrícula: 9.876"
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Não consta informação sobre ônus."
+    },
+    "onus_descricao": {
+      "valor": "Não consta informação sobre ônus",
+      "evidencia": "Não consta informação sobre ônus."
+    },
+    "data_vistoria": {
+      "valor": "2025-04-15",
+      "evidencia": "15/04/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Fernanda Lins",
+      "evidencia": "Fernanda Lins"
+    },
+    "registro_profissional": {
+      "valor": "CREA 18001/PE",
+      "evidencia": "CREA 18001/PE"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

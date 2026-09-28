@@ -1,0 +1,85 @@
+{
+  "arquivo": "laudo_11.txt",
+  "modelo": "gemini-3.5-flash-lite",
+  "versao_prompt": "v1",
+  "modo": "lote de 17",
+  "data": "2026-09-27 16:54",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "Terreno para incorporação",
+      "evidencia": "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP."
+    },
+    "endereco": {
+      "valor": "Rua Projetada 4, s/n",
+      "evidencia": "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP."
+    },
+    "cidade": {
+      "valor": "Santos",
+      "evidencia": "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP."
+    },
+    "uf": {
+      "valor": "SP",
+      "evidencia": "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP."
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": 1020.0,
+      "evidencia": "Superfície: 1.020 m2."
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 2450000.0,
+      "evidencia": "Avaliação final R$ 2.450.000,00."
+    },
+    "matricula": {
+      "valor": "88.710",
+      "evidencia": "Matrícula 88.710."
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Ônus reais não informados."
+    },
+    "onus_descricao": {
+      "valor": "Ônus reais não informados",
+      "evidencia": "Ônus reais não informados."
+    },
+    "data_vistoria": {
+      "valor": "2025-05-16",
+      "evidencia": "Data do levantamento: 16/05/2025."
+    },
+    "responsavel_tecnico": {
+      "valor": "Marcos Vieira",
+      "evidencia": "Elaborado por: Marcos Vieira, Eng. Civil, CREA-SP 5099988776."
+    },
+    "registro_profissional": {
+      "valor": "CREA-SP 5099988776",
+      "evidencia": "Elaborado por: Marcos Vieira, Eng. Civil, CREA-SP 5099988776."
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

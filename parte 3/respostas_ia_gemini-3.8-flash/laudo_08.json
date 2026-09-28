@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_08.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:07",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "loja térrea com sobreloja",
+      "evidencia": "loja térrea com sobreloja"
+    },
+    "endereco": {
+      "valor": "Rua Sete de Setembro, 410",
+      "evidencia": "Rua Sete de Setembro, 410"
+    },
+    "cidade": {
+      "valor": "Salvador",
+      "evidencia": "Salvador"
+    },
+    "uf": {
+      "valor": "BA",
+      "evidencia": "BA"
+    },
+    "area_privativa_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": 118,
+      "evidencia": "Área construída aproximada: 118 m²"
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "ano_construcao": {
+      "valor": null,
+      "evidencia": null
+    },
+    "idade_informada": {
+      "valor": "Ano de referência: 2005",
+      "evidencia": "Ano de referência: 2005"
+    },
+    "valor_avaliacao": {
+      "valor": 910000,
+      "evidencia": "R$ 910.000,00"
+    },
+    "matricula": {
+      "valor": null,
+      "evidencia": null
+    },
+    "onus_situacao": {
+      "valor": "não confirmado",
+      "evidencia": "Ônus: não foi possível verificar por ausência de certidão."
+    },
+    "onus_descricao": {
+      "valor": "não foi possível verificar por ausência de certidão",
+      "evidencia": "não foi possível verificar por ausência de certidão"
+    },
+    "data_vistoria": {
+      "valor": "2025-04-29",
+      "evidencia": "29/04/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Luciana Prado",
+      "evidencia": "Luciana Prado"
+    },
+    "registro_profissional": {
+      "valor": "CNAI 12345",
+      "evidencia": "CNAI 12345"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "arquivo": "laudo_01.txt",
+  "modelo": "gemini-3.8-flash",
+  "versao_prompt": "v1",
+  "data": "2026-09-27 16:00",
+  "resposta": {
+    "tipo_imovel": {
+      "valor": "apartamento residencial",
+      "evidencia": "apartamento residencial"
+    },
+    "endereco": {
+      "valor": "Rua das Acácias, 145, ap. 82 - Vila Mariana",
+      "evidencia": "Rua das Acácias, 145, ap. 82 - Vila Mariana"
+    },
+    "cidade": {
+      "valor": "São Paulo",
+      "evidencia": "São Paulo"
+    },
+    "uf": {
+      "valor": "SP",
+      "evidencia": "SP"
+    },
+    "area_privativa_m2": {
+      "valor": 78.4,
+      "evidencia": "78,40 m²"
+    },
+    "area_util_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_construida_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_terreno_m2": {
+      "valor": null,
+      "evidencia": null
+    },
+    "area_total_m2": {
+      "valor": 102.1,
+      "evidencia": "102,10 m²"
+    },
+    "ano_construcao": {
+      "valor": 2014,
+      "evidencia": "Ano de construção: 2014"
+    },
+    "idade_informada": {
+      "valor": null,
+      "evidencia": null
+    },
+    "valor_avaliacao": {
+      "valor": 642000,
+      "evidencia": "R$ 642.000,00"
+    },
+    "matricula": {
+      "valor": "184.772",
+      "evidencia": "184.772"
+    },
+    "onus_situacao": {
+      "valor": "sem ônus",
+      "evidencia": "não foram identificados ônus na certidão analisada"
+    },
+    "onus_descricao": {
+      "valor": "não foram identificados ônus na certidão analisada",
+      "evidencia": "não foram identificados ônus na certidão analisada"
+    },
+    "data_vistoria": {
+      "valor": "2025-03-12",
+      "evidencia": "12/03/2025"
+    },
+    "responsavel_tecnico": {
+      "valor": "Marina Albuquerque",
+      "evidencia": "Marina Albuquerque"
+    },
+    "registro_profissional": {
+      "valor": "CREA-SP 5061234567",
+      "evidencia": "CREA-SP 5061234567"
+    },
+    "contradicoes": {
+      "valor": null,
+      "evidencia": null
+    }
+  }
+}
